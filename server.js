@@ -18,7 +18,7 @@ mongoose.connect('mongodb://karthik.hacker:hacker24@ds263639.mlab.com:63639/imag
 
 app.use(morgan('dev'));
 app.use(bodyParser.json());
-
+app.use(express.static(__dirname + '/public'));
 //get images
 app.get('/api/imagesearch/:term',(req,res) => {
   var term = req.params.term;
