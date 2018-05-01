@@ -1,0 +1,25 @@
+{
+  "name": "image-search",
+  "version": "1.0.0",
+  "description": "Image search api",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [
+    "Expressjs",
+    "and",
+    "mongodb"
+  ],
+  "author": "karthik",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "cors": "^2.8.4",
+    "express": "^4.16.3",
+    "isomorphic-fetch": "^2.2.1",
+    "mongoose": "^5.0.16",
+    "morgan": "^1.9.0"
+  }
+}
